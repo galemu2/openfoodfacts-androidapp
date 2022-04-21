@@ -64,7 +64,7 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.3")
     implementation("androidx.multidex:multidex:2.0.1")
     implementation("androidx.viewpager2:viewpager2:1.0.0")
-    implementation("androidx.startup:startup-runtime:1.1.0")
+    implementation("androidx.startup:startup-runtime:1.1.1")
     implementation("androidx.work:work-runtime-ktx:2.7.1")
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
 
@@ -115,7 +115,7 @@ dependencies {
     kapt("org.greenrobot:eventbus-annotation-processor:$eventBusVersion")
 
     // Material design
-    implementation("com.google.android.material:material:1.4.0")
+    implementation("com.google.android.material:material:1.5.0")
 
     // Image Loading
     implementation("com.squareup.picasso:picasso:2.8")
@@ -149,8 +149,8 @@ dependencies {
     implementation("com.github.hootsuite:nachos:1.2.0")
 
     // Crash analytics
-    implementation("io.sentry:sentry-android:5.7.2")
-    implementation("com.github.matomo-org:matomo-sdk-android:v4.1.2")
+    implementation("io.sentry:sentry-android:5.7.3")
+    implementation("com.github.matomo-org:matomo-sdk-android:4.1.4")
 
     // ShowCaseView dependency
     implementation("com.github.mreram:showcaseview:1.0.5")
@@ -159,9 +159,9 @@ dependencies {
     testImplementation("androidx.arch.core:core-testing:2.1.0")
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.robolectric:robolectric:4.7.3")
-    testImplementation("org.mockito:mockito-core:4.4.0")
+    testImplementation("org.mockito:mockito-core:4.5.0")
     testImplementation("org.mockito.kotlin:mockito-kotlin:4.0.0")
-    testImplementation("org.mockito:mockito-junit-jupiter:4.4.0")
+    testImplementation("org.mockito:mockito-junit-jupiter:4.5.0")
     testImplementation("com.google.truth:truth:1.1.3")
     testImplementation("com.google.truth.extensions:truth-java8-extension:1.1.3")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:${coroutinesVersion}")
@@ -181,7 +181,7 @@ dependencies {
     androidTestImplementation("com.google.dagger:dagger:2.39.1")
     kaptAndroidTest("com.google.dagger:dagger-compiler:2.39.1")
 
-    androidTestImplementation("androidx.test:runner:1.3.0") { exclude("junit") }
+    androidTestImplementation("androidx.test:runner:1.4.0") { exclude("junit") }
     androidTestImplementation("androidx.test:rules:1.4.0")
 
     androidTestImplementation("androidx.test.ext:junit:1.1.3") { exclude("junit") }
