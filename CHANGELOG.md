@@ -1,5 +1,25 @@
 # Changelog
 
+## [3.10.0](https://github.com/galemu2/openfoodfacts-androidapp/compare/v3.9.0...v3.10.0) (2022-05-06)
+
+
+### Features
+
+* Automatically label issues ([#4524](https://github.com/galemu2/openfoodfacts-androidapp/issues/4524)) ([c46bc42](https://github.com/galemu2/openfoodfacts-androidapp/commit/c46bc42030ec8f1cf184f762ef4fe9d97893c768))
+* The Activity now notifies when the drawer status has changed ([#4560](https://github.com/galemu2/openfoodfacts-androidapp/issues/4560)) ([ef12188](https://github.com/galemu2/openfoodfacts-androidapp/commit/ef12188100cd6478c1de391b88695619f43cc4de))
+
+
+### Bug Fixes
+
+* change default name for lists ([#4616](https://github.com/galemu2/openfoodfacts-androidapp/issues/4616)) ([7b56644](https://github.com/galemu2/openfoodfacts-androidapp/commit/7b56644fb2df46c13b2a398d5d08dbfc2d35b853))
+* environment picture issues ([#4655](https://github.com/galemu2/openfoodfacts-androidapp/issues/4655)) ([7bf62d8](https://github.com/galemu2/openfoodfacts-androidapp/commit/7bf62d8413205ec0f3e5ed3e70cdf4c9adb24280))
+* NPE crash on SearchByCodeFragment ([#4652](https://github.com/galemu2/openfoodfacts-androidapp/issues/4652)) ([53f79aa](https://github.com/galemu2/openfoodfacts-androidapp/commit/53f79aa4cd20e17845dc2e6c02822eb740476359))
+* NPE for null binding ([#4629](https://github.com/galemu2/openfoodfacts-androidapp/issues/4629)) ([c4eaba8](https://github.com/galemu2/openfoodfacts-androidapp/commit/c4eaba8adbdf1400068d63cb44cb82ff3036683e))
+* NPE in ProductCompareAdapter ([#4631](https://github.com/galemu2/openfoodfacts-androidapp/issues/4631)) ([7ef7b94](https://github.com/galemu2/openfoodfacts-androidapp/commit/7ef7b94eb290cdc31e07a54b02400e914217037e))
+* Revent to Eaten products ([#4702](https://github.com/galemu2/openfoodfacts-androidapp/issues/4702)) ([cfca5f4](https://github.com/galemu2/openfoodfacts-androidapp/commit/cfca5f4ea6d75e10fa2201cd0afcd9754c0d1e75))
+* When nutriscore is not (yet) computed, hide the "Learn more" button ([#4657](https://github.com/galemu2/openfoodfacts-androidapp/issues/4657)) ([a17ddb9](https://github.com/galemu2/openfoodfacts-androidapp/commit/a17ddb983e06b454968989be2088fd4a8a9ec3bf))
+* wrong number of products for lists + analytics events ([#4648](https://github.com/galemu2/openfoodfacts-androidapp/issues/4648)) ([c7438bb](https://github.com/galemu2/openfoodfacts-androidapp/commit/c7438bbdb17dd5080c222566b6d896e0d28a65b7))
+
 ## [3.9.0](https://github.com/galemu2/openfoodfacts-androidapp/compare/v3.8.0...v3.9.0) (2022-04-02)
 
 
